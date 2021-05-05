@@ -15,33 +15,33 @@ function Header() {
   return (
     <div className="header">
       <div className="header-left">
-        <img src="" />
+				<h2>Dev-Space</h2> 
         <div className="header-input">
-          <SearchIcon />
+          <SearchIcon fontSize="small"/>
           <input />
         </div>
       </div>
-      <div className="header-mid">
-        <div className="header_option">
-          <HomeIcon />
+      <div className="header-center">
+        <div className="header-option header-option-active">
+          <HomeIcon fontSize="large"/>
         </div>
-        <div className="header_option">
-          <FlagIcon />
+        <div className="header-option">
+          <FlagIcon fontSize="large" />
         </div>
-        <div className="header_option">
-          <SubscriptionsIcon />
+        <div className="header-option">
+          <SubscriptionsIcon fontSize="large"/>
         </div>
-        <div className="header_option">
-          <StorefrontIcon />
+        <div className="header-option">
+          <StorefrontIcon fontSize="large"/>
         </div>
-        <div className="header_option">
-          <SupervisedUserCircleIcon />
+        <div className="header-option">
+          <SupervisedUserCircleIcon fontSize="large"/>
         </div>
       </div>
       <div className="header-right">
         <div className="header-info">
           <Avatar />
-          <h4>long le</h4>
+          <h4>User</h4>
         </div>
         <IconButton>
           <AddIcon />
@@ -55,7 +55,6 @@ function Header() {
 				<IconButton>
           <ExpandMoreTwoToneIcon />
         </IconButton>
-
       </div>
     </div>
   );
