@@ -18,7 +18,7 @@ function Header() {
 				<h2>Dev-Space</h2> 
         <div className="header-input">
           <SearchIcon fontSize="small"/>
-          <input />
+          <input placeholder="Search Me"/>
         </div>
       </div>
       <div className="header-center">
